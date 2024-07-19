@@ -69,21 +69,16 @@ h1 {
   display: none;
 }
 
-.dropdown-trigger{
-
-}
 footer.page-footer {
   height: var(--footer-height);
   position: fixed;
   padding-top: 20px;
   padding-bottom:0px;
- left: 0;
+  left: 0;
   bottom:  0;
   width: 100%;
-  background-color: ;
   color: black;
   text-align: center;
-
 }
 
 .pic{
