@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Materialize Components</title>
+    <title>{TITLE}</title>
     <!--Link Materialize Here-->
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -26,9 +26,7 @@
 <body>
     {NAV}
 
-    <div class="row">
-        {CARDS}
-    </div>
+    <section id="cards" style="display: flex; flex-wrap: wrap; gap: 20px; padding: 20px;">{CARDS}</section>
 
     <script src="/script.js"></script>
     <script>

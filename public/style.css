@@ -92,6 +92,9 @@ footer.page-footer {
 
 }
 
+.card-title {
+  background-color: #0005;
+}
 .card-content{
   height:150px;
 
