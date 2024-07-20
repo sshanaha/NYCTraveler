@@ -1,0 +1,618 @@
+[
+  {
+    "borough": "queens",
+    "category": "food",
+    "title": "Nur Thai $$",
+    "desc": "Romantic, casual standby for traditional Thai dishes like stir-fried noodles & spring rolls.",
+    "image": "https://bit.ly/2YgYHnd",
+    "ref": {
+      "url": "http://www.nurthai.com/",
+      "label": "Nur Thai"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "food",
+    "title": "Mojo Restaurant $$",
+    "desc": "Mojo! A Latin Experience. Menu created by Chef Emmanuel Piqueras taking a first crack on creating a Nuevo Latino menu. The best Latin American food is not one country but all combine.",
+    "image": "https://bit.ly/332yEyX",
+    "ref": {
+      "url": "http://www.mojolatin.com/",
+      "label": "Mojo "
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "food",
+    "title": "Rincon Criollo $$",
+    "desc": "Family-run spot serving Cuban classics like lechon asado (roasted suckling pig) since 1976.",
+    "image": "https://bit.ly/2MvdC6i",
+    "ref": {
+      "url": "http://www.rincon-criollo.com/",
+      "label": "Rincon Criollo "
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "parks",
+    "title": "Flushing Meadows-Corona Park",
+    "desc": "Flushing Meadows, is a public park in the northern part of Queens, New York City. It is bounded by I-678 on the east, Grand Central Parkway on the west, Flushing Bay on the north, and Union Turnpike on the south.",
+    "image": "https://bit.ly/2YvaIRj",
+    "ref": {
+      "url": "https://bit.ly/2MyW3T4",
+      "label": "Directions to Flushing Meadows"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "parks",
+    "title": "Astoria Park",
+    "desc": "Astoria Park, a 59.96-acre park located along the East River in the New York City borough of Queens, contains one of the largest open spaces in Queens. The park is operated and maintained by the New York City Department of Parks and Recreation.",
+    "image": "https://bit.ly/2yptQ8H",
+    "ref": {
+      "url": "https://bit.ly/2ywqWPv",
+      "label": "Directions to Astoria Park "
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "parks",
+    "title": "Gantry Park",
+    "desc": "Gantry Plaza State Park is a 12-acre state park on the East River in the Hunters Point section of Long Island City, in the New York City borough of Queens. The park is located in a former dockyard and manufacturing district, and includes remnants of facilities from the area's past.",
+    "image": "https://bit.ly/2LTjOFM",
+    "ref": {
+      "url": "https://bit.ly/2Kos918",
+      "label": "Directions to Gantry Park"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "museums",
+    "title": "Museum of the Moving Image $",
+    "desc": "Museum of the Moving Image advances the understanding, enjoyment, and appreciation of the art, history, technique, and technology of film, and etc. By presenting exhibitions, education programs, significant moving-image works, and interpretive programs, and preserving moving-image related artifacts.",
+    "image": "https://bit.ly/2YBLn8d",
+    "ref": {
+      "url": "https://bit.ly/1BSz7yv",
+      "label": "\"Museum of the Moving Image\""
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "museums",
+    "title": "New York Hall of Science $$",
+    "desc": "The New York Hall of Science, also known as NYSCI, is a science museum",
+    "image": "https://bit.ly/332Ekcf",
+    "ref": {
+      "url": "https://bit.ly/2YzXRx8",
+      "label": "\"New York Hall Of Science\""
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "museums",
+    "title": "Queens County Farm Museum",
+    "desc": "Free Admission; The Queens County Farm Museum is located on 47 acres of the New York City neighborhoods of Floral Park and Glen Oaks in Queens. This historic farm occupies the city's largest remaining tract of undisturbed farmland, and is still a working farm today\n",
+    "image": "https://bit.ly/332oEG1",
+    "ref": {
+      "url": "https://bit.ly/2LTjqXQ",
+      "label": "The Queens County Farm Museum"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "theatres",
+    "title": "AMC Fresh Meadows 7",
+    "desc": "190-02 Horace Harding Expy, Fresh Meadows, NY 11365",
+    "image": "https://bit.ly/335Gvf5",
+    "ref": {
+      "url": "https://bit.ly/2z3JjvT",
+      "label": "AMC Fresh Meadows 7"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "theatres",
+    "title": "Cinemart Cinemas",
+    "desc": "Independent theater mainstay featuring first-run & art house films plus an adjacent, cozy cafe.",
+    "image": "https://bit.ly/2YAf3CW",
+    "ref": {
+      "url": "https://bit.ly/3164bhA",
+      "label": "Cinemart Cinemas"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "theatres",
+    "title": "College Point Multiplex Cinemas",
+    "desc": "Modern multi screen cinema with digital projection and sound equipment, plus a custom party service.",
+    "image": "https://bit.ly/2Yy53tR",
+    "ref": {
+      "url": "https://bit.ly/2YvEEAV",
+      "label": "College Point Multiplex Cinemas"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "food",
+    "title": "Carmines $$",
+    "desc": "Carmine's Italian Restaurant is a family-style restaurant offering exceptional value to its guests through many traditional southern Italian dishes. s.",
+    "image": "https://bit.ly/2MsMC7l",
+    "ref": {
+      "url": "https://www.carminesnyc.com/",
+      "label": "Carmines"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "food",
+    "title": "Le Bernardin $$$$",
+    "desc": "Elite French restaurant offers chef Eric Ripert's refined seafood, expert service & luxurious decor.",
+    "image": "https://bit.ly/332yEyX",
+    "ref": {
+      "url": "https://www.le-bernardin.com/",
+      "label": "Le Bernardin "
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "food",
+    "title": "The Grill $$$$",
+    "desc": "Steakhouse in an iconic Seagram Building setting with midcentury style, classic dishes & cocktails.",
+    "image": "https://bit.ly/2LUC29Q",
+    "ref": {
+      "url": "https://thegrillnewyork.com/",
+      "label": "Grill NY "
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "parks",
+    "title": "Statue of Liberty National Monument",
+    "desc": "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York, in the United States",
+    "image": "https://cnn.it/318x2Sx",
+    "ref": {
+      "url": "https://bit.ly/201vMdz",
+      "label": "Statue of Liberty"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "parks",
+    "title": "The High Line",
+    "desc": "The High Line is a 1.45-mile-long elevated linear park, greenway and rail trail created on a former New York Central Railroad spur on the west side of Manhattan in New York City. The High Line's design is a collaboration between James Corner Field Operations, Diller Scofidio + Renfro, and Piet Oudolf.",
+    "image": "https://on.nyc.gov/1sNcxdj",
+    "ref": {
+      "url": "https://bit.ly/2PWuDIN",
+      "label": "The High Line"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "parks",
+    "title": "Castle Clinton National Monument",
+    "desc": "Castle Clinton or Fort Clinton, previously known as Castle Garden, is a circular sandstone fort now located in Battery Park, in Manhattan, New York City. Built from 1808 to 1811, it was the first U.S. immigration station, where more than 8 million people arrived in the United States from 1855 to 1890.",
+    "image": "https://bit.ly/2YzCSL4",
+    "ref": {
+      "url": "https://bit.ly/2Wl02bZ",
+      "label": "Castle Clinton"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "parks",
+    "title": "Central Park",
+    "desc": "Central Park is an urban park in Manhattan, New York City. It is located between the Upper West Side and Upper East Side, roughly bounded by Fifth Avenue on the east, Central Park West (Eighth Avenue) on the west, Central Park South (59th Street) on the south, and Central Park North (110th Street) on the north.",
+    "image": "https://bit.ly/2JLWK9D",
+    "ref": {
+      "url": "http://www.centralparknyc.org/",
+      "label": "Central Park"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "museums",
+    "title": "Metropolitan Museum of Art $$$",
+    "desc": "The Metropolitan Museum of Art of New York City, colloquially \"the Met\", is the largest art museum in the United States.",
+    "image": "https://bit.ly/2GCwNra",
+    "ref": {
+      "url": "https://bit.ly/2i47uSr",
+      "label": "Museum of Art"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "museums",
+    "title": "American Museum of Natural History",
+    "desc": "Suggestion Donation; The American Museum of Natural History, located on the Upper West Side of Manhattan, New York City, is the largest natural history museum in the world.",
+    "image": "https://bit.ly/332Ekcf",
+    "ref": {
+      "url": "https://bit.ly/2hkvLmo",
+      "label": "Museum of National History"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "museums",
+    "title": "Intrepid Sea, Air & Space Museum $$$",
+    "desc": "The Intrepid Sea, Air & Space Museum is an American military and maritime history museum with a collection of museum ships in New York City\n",
+    "image": "https://bit.ly/2YDLnZs",
+    "ref": {
+      "url": "https://bit.ly/2ECNP6b",
+      "label": "Intrepid sea, air & space museum"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "theatres",
+    "title": "Lincoln Center for the Performing Arts $$",
+    "desc": "Lincoln Center for the Performing Arts is a 16.3-acre complex of buildings in the Lincoln Square neighborhood of the borough of Manhattan in New York City.",
+    "image": "https://bit.ly/32V9jXE",
+    "ref": {
+      "url": "http://www.lincolncenter.org/",
+      "label": "Lincoln Center for the Performing Arts"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "theatres",
+    "title": "New York City Center $$$",
+    "desc": "New York City Center is a 2,257-seat Moorish Revival theater.",
+    "image": "https://bit.ly/333quq8",
+    "ref": {
+      "url": "https://bit.ly/2Yj2UHe",
+      "label": "New York City Center"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "theatres",
+    "title": "Hamilton $$$",
+    "desc": "An American Musical is a sung-and-rapped through musical about the life of American Founding Father Alexander Hamilton, with music, lyrics and book by Lin-Manuel Miranda, inspired by the 2004 biography Alexander Hamilton by historian Ron Chernow.",
+    "image": "https://bit.ly/332qXbY",
+    "ref": {
+      "url": "https://bit.ly/2puqRYw",
+      "label": "Hamilton"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "food",
+    "title": "Hana Food $",
+    "desc": "Plain grocery store known for sandwiches",
+    "image": "https://bit.ly/2SURMKs",
+    "ref": {
+      "url": "https://bit.ly/2Ke554U",
+      "label": "Hana Food "
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "food",
+    "title": "西安名吃 Xi'an Famous Foods $",
+    "desc": "Authentic Chinese Food",
+    "image": "https://bit.ly/2YmHkld",
+    "ref": {
+      "url": "https://www.xianfoods.com/",
+      "label": "Xian Food "
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "food",
+    "title": "Black Nile $$",
+    "desc": "Seafood dishes & soul food whipped up in a narrow, brick- & wood-lined space with a laid-back",
+    "image": "https://bit.ly/2Yx9Ewj",
+    "ref": {
+      "url": "https://tre-nyc-trvl.glitch.me/blacknilerestaurant.com",
+      "label": "Black Nile "
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "parks",
+    "title": "Brooklyn Bridge Park",
+    "desc": "Brooklyn Bridge Park is an 85-acre park on the Brooklyn side of the East River in New York City.",
+    "image": "https://bit.ly/2OyKX2S",
+    "ref": {
+      "url": "https://bit.ly/31aL2LK",
+      "label": "Directions to Brooklyn Bridge Park"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "parks",
+    "title": "Prospect Park",
+    "desc": "Prospect Park is an urban park in Brooklyn, New York City. The park is situated between the neighborhoods of Park Slope, Prospect Heights, Prospect Lefferts Gardens, Flatbush, and Windsor Terrace, and is adjacent to the Brooklyn Museum, Grand Army Plaza, and the Brooklyn Botanic Garden.",
+    "image": "https://bit.ly/2SFFd5Q",
+    "ref": {
+      "url": "https://bit.ly/2YlWx5Z",
+      "label": "Directions to Prospect Park"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "parks",
+    "title": "East River State Park",
+    "desc": "East River State Park is an 11-acre state park located in the Williamsburg neighborhood of Brooklyn, New York. The park stretches along the East River near North 7th, 8th, and 9th Streets, and offers unobstructed views of the Williamsburg Bridge and Midtown Manhattan.",
+    "image": "https://bit.ly/2MuiqZO",
+    "ref": {
+      "url": "https://bit.ly/2YA3jAl",
+      "label": "Directions to East River State Park"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "museums",
+    "title": "New York Transit Museum $$",
+    "desc": "The New York Transit Museum is a museum that displays historical artifacts of the New York City Subway, bus, and commuter rail systems in the greater New York City metropolitan region",
+    "image": "https://bit.ly/2K52CLk",
+    "ref": {
+      "url": "https://bit.ly/2YhLSsX",
+      "label": "Transit Museum"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "museums",
+    "title": "Museum of Food and Drink $$",
+    "desc": "Featuring edible & aromatic exhibits, this creative museum provides education on food & drink.",
+    "image": "https://bit.ly/2yrlygB",
+    "ref": {
+      "url": "https://bit.ly/2N7zLpt",
+      "label": "Museum of Food and Drink"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "theatres",
+    "title": "Alamo Drafthouse Cinema Downtown Brooklyn",
+    "desc": "Carmine's Italian Restaurant is a family-style restaurant offering exceptional value to its guests through many traditional southern Italian dishes. s.",
+    "image": "https://bit.ly/2ysEf3C",
+    "ref": {
+      "url": "https://bit.ly/31FOQFz",
+      "label": "Alamo Drafthouse Cinema Downtown Brooklyn"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "theatres",
+    "title": "Regal Battery Park",
+    "desc": "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
+    "image": "https://bit.ly/2STYbFS",
+    "ref": {
+      "url": "https://regmovi.es/2MvfHPQ",
+      "label": "Regal Battery Park"
+    }
+  },
+  {
+    "borough": "brooklyn",
+    "category": "theatres",
+    "title": "Regal UA Court Street & RPX",
+    "desc": "106 Court St, Brooklyn, NY 11201",
+    "image": "https://bit.ly/2GDsH26",
+    "ref": {
+      "url": "https://regmovi.es/334UJwI",
+      "label": "Regal UA Court Street & RPX"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "food",
+    "title": "Christienne of Food Home and Away $$",
+    "desc": "Dining with Christienne is the whole package - her home is warm and inviting, her food is authentic and delicious, and her demeanor is so friendly and pleasant.",
+    "image": "https://bit.ly/2MsTkKz",
+    "ref": {
+      "url": "https://bit.ly/2Ke554U",
+      "label": "Christienne's"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "food",
+    "title": "Antonio's Trattoria $$",
+    "desc": "Cozy trattoria known for its brick-oven thin-crust pies & other homestyle Italian dishes.",
+    "image": "https://bit.ly/318hjD8",
+    "ref": {
+      "url": "https://www.antoniostrattoria.com/",
+      "label": "Antonio's Trattoria "
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "food",
+    "title": "City Island Lobster House $$",
+    "desc": "Low-key spot with outdoor seats on the Sound offers a variety of seafood & American comfort fare.",
+    "image": "https://bit.ly/315eZN5",
+    "ref": {
+      "url": "http://cilobsterhouse.com/",
+      "label": "Lobster House"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "parks",
+    "title": "Barretto Point Park",
+    "desc": "Barretto Point Park is a waterfront public park on the East River located in the Hunts Point neighborhood of the Bronx. Its namesake is Francis J. Barretto, a 19th-century merchant and State Assemblyman who lived in the area.",
+    "image": "https://on.nyc.gov/2Ym3VOU",
+    "ref": {
+      "url": "https://bit.ly/2YgHOJz",
+      "label": "Directions to Barretto Point Park"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "parks",
+    "title": "Pelham Bay Park",
+    "desc": "Pelham Bay Park is a municipal park located in the northeast corner of the New York City borough of the Bronx. It is, at 2,772 acres, the largest public park in New York City. The park is more than three times the size of Manhattan's Central Park.\n",
+    "image": "https://bit.ly/31cItc1",
+    "ref": {
+      "url": "https://bit.ly/2K8fLmN",
+      "label": "Directions to Pelham Bay Park"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "parks",
+    "title": "New York Botanical Garden",
+    "desc": "The New York Botanical Garden is a botanical garden located in the Bronx, New York City. The 250-acre site's verdant landscape supports over one million living plants in extensive collections.",
+    "image": "https://bit.ly/2KvWU4j",
+    "ref": {
+      "url": "https://bit.ly/2ZqSi5o",
+      "label": "Directions to New York Botanical Garden"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "museums",
+    "title": "Van Cortlandt House Museum $",
+    "desc": "The Van Cortlandt House Museum, also known as the Frederick Van Cortlandt House or simply the Van Cortlandt House, is the oldest building in the borough of the Bronx in New York City.\n\n",
+    "image": "https://bit.ly/2LUBW1Y",
+    "ref": {
+      "url": "https://bit.ly/2GG8dp8",
+      "label": "Van Cortlandt Museum"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "museums",
+    "title": "Yankee Stadium Tours $$",
+    "desc": "The New York Yankees Museum is a sports museum located at Yankee Stadium on the main level at Gate 6. It is sponsored and presented by Bank of America and is dedicated to baseball memorabilia for the New York Yankees. \n\n",
+    "image": "https://bit.ly/2LPcnPP",
+    "ref": {
+      "url": "https://atmlb.com/2muXTZr",
+      "label": "Yankee Stadium Tour"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "theatres",
+    "title": "AMC Bay Plaza Cinema 13",
+    "desc": "2210 Bartow Ave, The Bronx, NY 10475",
+    "image": "https://bit.ly/2Ow3AnW",
+    "ref": {
+      "url": "https://bit.ly/2STgriJ",
+      "label": "AMC Bay Plaza Cinema 13"
+    }
+  },
+  {
+    "borough": "bronx",
+    "category": "theatres",
+    "title": "Concourse Plaza Multiplex Cinemas",
+    "desc": "Modern multi screen cinema with digital projection and sound equipment, plus a custom party service.",
+    "image": "https://bit.ly/2STgYBf",
+    "ref": {
+      "url": "https://bit.ly/2OFgy38",
+      "label": "Concourse Plaza Multiplex Cinemas"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "food",
+    "title": "Lakruwana $$",
+    "desc": "Arty, elaborately decorated Sri Lankan restaurant with a weekend lunch & dinner buffet option",
+    "image": "https://bit.ly/2yq2Nub",
+    "ref": {
+      "url": "https://bit.ly/2yq2Nub",
+      "label": "Lakruwana "
+    }
+  },
+  {
+    "borough": "si",
+    "category": "food",
+    "title": "Giuliana's Restaurant $$",
+    "desc": "Upscale bar & grill with outdoor patio featuring Italian entrees, pizza, pasta & housemade desserts",
+    "image": "https://bit.ly/2K9z1jT",
+    "ref": {
+      "url": "https://www.giulianassi.com/",
+      "label": "Giuliana's Restaurant"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "parks",
+    "title": "Freshkills Park",
+    "desc": "Freshkills Park is a public park being built atop a landfill reclamation project on Staten Island. At about 2,200 acres, it will be the largest park developed in New York City since the 19th century. Its construction began in October 2008 and is slated to continue in phases for at least 30 years.",
+    "image": "https://bit.ly/2LV3kN9",
+    "ref": {
+      "url": "https://www.google.com/maps/dir//Freshkills+Park,+Staten+Island,+NY+10314/@40.561829,-74.1931021,12.83z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c24b7c2b3596b7:0x6a583a0b0c4cb172!2m2!1d-74.1858183!2d40.5772365",
+      "label": "Directions to FreshKills Park"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "parks",
+    "title": "Willowbrook Park",
+    "desc": "\n            Willowbrook Park is a recreational park in Staten Island's neighborhood of Willowbrook. It is part of the Staten Island Greenbelt. The 164-acre public park provides baseball fields, a playground, and a pond. A carousel was opened in 1999. \n",
+    "image": "https://on.nyc.gov/2KkxztH",
+    "ref": {
+      "url": "https://www.google.com/maps/dir//Willowbrook+Park,+Eton+Place,+Staten+Island,+NY/@40.7179355,-74.1195175,11.15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c24c429842de8d:0x39dc613db2eaafde!2m2!1d-74.1581129!2d40.6005621",
+      "label": "Directions to Willowbrook Park"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "parks",
+    "title": "High Rock Park",
+    "desc": "City park known for its ponds, wetlands, walking trails & a hill with panoramic views at the top.",
+    "image": "https://bit.ly/2YyPbuZ",
+    "ref": {
+      "url": "https://www.google.com/maps/dir//high+rock+park+nyc/@40.6436375,-74.2588338,11.41z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c24c1d523080eb:0x3044966af3363689!2m2!1d-74.1230547!2d40.5825314",
+      "label": "Directions to High Rock Park"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "museums",
+    "title": "Snug Harbor Cultual Center & Botanical Garden $",
+    "desc": "Snug Harbor is a place where history, architecture, visual and performing arts, gardens, agriculture, and education come together and provide dynamic experiences for all ages",
+    "image": "https://bit.ly/2T1dsF6",
+    "ref": {
+      "url": "https://bit.ly/2ysYk9P",
+      "label": "SHCC & BG"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "museums",
+    "title": "The Jacques Marchais Museum of Tibetan Art $",
+    "desc": "The Jacques Marchais Museum of Tibetan Art is a museum located on residential Lighthouse Hill in Egbertville, Staten Island, New York City. It is home to one of the United States' most extensive collections of Himalayan artifacts",
+    "image": "https://bit.ly/2Zpctkn",
+    "ref": {
+      "url": "https://bit.ly/2Oz7lcu",
+      "label": "The Jacques Marchais Museum "
+    }
+  },
+  {
+    "borough": "si",
+    "category": "theatres",
+    "title": "Atrium Stadium Cinemas",
+    "desc": "680 Arthur Kill Rd, Staten Island, NY 10308",
+    "image": "https://bit.ly/2YuPinz",
+    "ref": {
+      "url": "http://atriumstadium.com/",
+      "label": "Atrium Stadium Cinemas"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "theatres",
+    "title": "Regal Bricktown Charleston",
+    "desc": "165 Bricktown Way, Staten Island, NY 10309",
+    "image": "https://bit.ly/335UdPo",
+    "ref": {
+      "url": "https://regmovi.es/2Yxjp1H",
+      "label": "Regal Bricktown Charleston"
+    }
+  },
+  {
+    "borough": "si",
+    "category": "theatres",
+    "title": "AMC DINE-IN Staten Island 11",
+    "desc": "2655 Richmond Ave, Staten Island, NY 10314",
+    "image": "https://bit.ly/2OrnznJ",
+    "ref": {
+      "url": "https://bit.ly/2LSar9s",
+      "label": "AMC DINE-IN Staten Island 11"
+    }
+  }
+]
