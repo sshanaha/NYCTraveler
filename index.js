@@ -15,6 +15,10 @@ app.get('/', async (req, res) => {
   return res.send(formatHTML('/home.html'));
 });
 
+app.get('/dir', async (req, res) => {
+  return res.json({__dirname, files: fs.readdirSync(__dirname)});
+});
+
 app.get('/:category/:borough', async (req, res) => {
   if (!categories.includes(req.params.category) || !boroughs.includes(req.params.borough))
     return res.sendStatus(400);
