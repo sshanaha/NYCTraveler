@@ -14,6 +14,9 @@ const boroughs = ['queens', 'manhattan', 'brooklyn', 'bronx', 'si'];
 app.get('/', async (req, res) => {
   return res.send(formatHTML('/home.html'));
 });
+app.get('/about', async (req, res) => {
+  return res.send(formatHTML('/about.html'));
+});
 
 app.get('/dir', async (req, res) => {
   return res.json({__dirname, files: fs.readdirSync(__dirname)});
