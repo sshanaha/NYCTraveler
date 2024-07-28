@@ -1,15 +1,9 @@
 M.AutoInit();
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
-  });
-
-
-console.log('hi');
-
-
-
-
+$(document).ready(function() {
+  $('.carousel').carousel();
+  $('.dropdown-trigger').dropdown({hover: true});
+  $('.sidenav').sidenav();
+});
 
 function openCity(evt, cityName) {
   // Declare all variables
@@ -31,14 +25,3 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-$(document).ready(function(){
- $('.dropdown-trigger').dropdown(
- { hover: true
- }
- );
-});
- $(document).ready(function(){
-   $('.sidenav').sidenav();
- });
-

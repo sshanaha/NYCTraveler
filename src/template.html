@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/284/284489.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- JQuery -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  
+  <body>
+    <nav>
+      <div class="nav-wrapper DarkSalmon1">
+        {DROPDOWNS}
+        
+        <a href="/" class="brand-logo" style="position: relative; left: 2em">
+          <img id="nyc" src="https://images.vexels.com/media/users/3/128308/isolated/preview/e3496b3f1110a234cadd70a8eef71076-new-york-city-skyline-by-vexels.png" />
+        </a>
+    
+        <a href="/" style="position: relative; left: 2em; bottom: 1.2em; color: black; font-size: 30px;">
+          Discover NYC with Us
+        </a>
+    
+        <ul id="nav-mobile" class="right hide-on-med-and-down">{DROPDOWN_MOBILE}</ul>         
+      </div>
+    </nav>
+    
+    <main>{CONTENT}</main>
+        
+    <footer class="page-footer nav-wrapper #E9967A">
+      <a href="/"> Discover NYC </a>
+      <a href="/about" style="margin-left: 30px">About Us </a>
+      <!-- <a href=""> Community Content </a> -->
+
+      <div style="margin-left: auto;">
+        <a href="https://www.facebook.com/">
+          <img class="Fb" src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-02-512.png" /></a>
+        <a href="https://instagram.com/ammin.rehman?igshid=mzwrejt9hxjz">
+          <img class="Fb" src="https://www.transparentpng.com/download/logo-instagram/zI6ZGS-black-logo-instagram-png-transparent.png" />
+        </a>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

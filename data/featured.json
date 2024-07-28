@@ -100,7 +100,7 @@
   },
   {
     "borough": "queens",
-    "category": "theatres",
+    "category": "theaters",
     "title": "AMC Fresh Meadows 7",
     "desc": "190-02 Horace Harding Expy, Fresh Meadows, NY 11365",
     "image": "https://bit.ly/335Gvf5",
@@ -111,7 +111,7 @@
   },
   {
     "borough": "queens",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Cinemart Cinemas",
     "desc": "Independent theater mainstay featuring first-run & art house films plus an adjacent, cozy cafe.",
     "image": "https://bloximages.chicago2.vip.townnews.com/qchron.com/content/tncms/assets/v3/editorial/2/07/2079d51d-50c7-56e3-87eb-a633232a9bbc/6037c59a932fc.image.jpg",
@@ -122,7 +122,7 @@
   },
   {
     "borough": "queens",
-    "category": "theatres",
+    "category": "theaters",
     "title": "College Point Multiplex Cinemas",
     "desc": "Modern multi screen cinema with digital projection and sound equipment, plus a custom party service.",
     "image": "https://bit.ly/2Yy53tR",
@@ -243,7 +243,7 @@
   },
   {
     "borough": "manhattan",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Lincoln Center for the Performing Arts $$",
     "desc": "Lincoln Center for the Performing Arts is a 16.3-acre complex of buildings in the Lincoln Square neighborhood of the borough of Manhattan in New York City.",
     "image": "https://bit.ly/32V9jXE",
@@ -254,7 +254,7 @@
   },
   {
     "borough": "manhattan",
-    "category": "theatres",
+    "category": "theaters",
     "title": "New York City Center $$$",
     "desc": "New York City Center is a 2,257-seat Moorish Revival theater.",
     "image": "https://bit.ly/333quq8",
@@ -265,7 +265,7 @@
   },
   {
     "borough": "manhattan",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Hamilton $$$",
     "desc": "An American Musical is a sung-and-rapped through musical about the life of American Founding Father Alexander Hamilton, with music, lyrics and book by Lin-Manuel Miranda, inspired by the 2004 biography Alexander Hamilton by historian Ron Chernow.",
     "image": "https://bit.ly/332qXbY",
@@ -364,7 +364,7 @@
   },
   {
     "borough": "brooklyn",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Alamo Drafthouse Cinema Downtown Brooklyn",
     "desc": "Carmine's Italian Restaurant is a family-style restaurant offering exceptional value to its guests through many traditional southern Italian dishes. s.",
     "image": "https://bit.ly/2ysEf3C",
@@ -375,7 +375,7 @@
   },
   {
     "borough": "brooklyn",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Regal Battery Park",
     "desc": "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
     "image": "https://bit.ly/2STYbFS",
@@ -386,12 +386,12 @@
   },
   {
     "borough": "brooklyn",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Regal UA Court Street & RPX",
     "desc": "106 Court St, Brooklyn, NY 11201",
     "image": "https://brooklynreporter.com/wp-content/uploads/2022/01/united-artist-theater-court-street-theater-no-1.png",
     "ref": {
-      "url": "https://www.regmovies.com/theatres",
+      "url": "https://www.regmovies.com/theaters",
       "label": "Regal UA Court Street & RPX"
     }
   },
@@ -485,7 +485,7 @@
   },
   {
     "borough": "bronx",
-    "category": "theatres",
+    "category": "theaters",
     "title": "AMC Bay Plaza Cinema 13",
     "desc": "2210 Bartow Ave, The Bronx, NY 10475",
     "image": "https://bit.ly/2Ow3AnW",
@@ -496,7 +496,7 @@
   },
   {
     "borough": "bronx",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Concourse Plaza Multiplex Cinemas",
     "desc": "Modern multi screen cinema with digital projection and sound equipment, plus a custom party service.",
     "image": "https://bit.ly/2STgYBf",
@@ -584,7 +584,7 @@
   },
   {
     "borough": "si",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Atrium Stadium Cinemas",
     "desc": "680 Arthur Kill Rd, Staten Island, NY 10308",
     "image": "https://bit.ly/2YuPinz",
@@ -595,7 +595,7 @@
   },
   {
     "borough": "si",
-    "category": "theatres",
+    "category": "theaters",
     "title": "Regal Bricktown Charleston",
     "desc": "165 Bricktown Way, Staten Island, NY 10309",
     "image": "https://bit.ly/335UdPo",
@@ -606,7 +606,7 @@
   },
   {
     "borough": "si",
-    "category": "theatres",
+    "category": "theaters",
     "title": "AMC DINE-IN Staten Island 11",
     "desc": "2655 Richmond Ave, Staten Island, NY 10314",
     "image": "https://bit.ly/2OrnznJ",

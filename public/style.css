@@ -6,7 +6,6 @@
 body {
   font-family: Poppins, system-ui, sans-serif, "Benton Sans", "Helvetica Neue", helvetica, arial;
   margin: 2em;
-/*   background-image: url("https://bit.ly/2ZyCrCd"); */
   background-repeat: no-repeat;
   background-size: cover;
   --footer-height: 70px;
@@ -75,8 +74,6 @@ h1 {
 footer.page-footer {
   height: var(--footer-height);
   position: fixed;
-  padding-top: 20px;
-  padding-bottom:0px;
   left: 0;
   bottom:  0;
   width: 100%;
@@ -84,15 +81,13 @@ footer.page-footer {
   text-align: center;
 }
 
-.pic{
-  height:300px !important;
-  width:300px !important;
+.pic {
+  height: 300px !important;
+  width: 300px !important;
 }
 
-.img{
-  height:300px;
-
-
+.img {
+  height: 300px;
 }
 
 .card-title {
@@ -112,6 +107,13 @@ footer.page-footer {
   
 /*   margin-left: 100px; */
 /* } */
+
+footer {
+  display: flex !important;
+  align-items: center;
+  background-color: #ee6e73;
+  padding: 0 max(5vw, 5px) !important;
+}
 
 footer a {
   color:black;

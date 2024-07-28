@@ -1,0 +1,704 @@
+[
+  {
+    "fsq_id": "bf1b573d8de94d0a898f8e32",
+    "categories": [
+      {
+        "id": 10056,
+        "name": "Zoo",
+        "short_name": "Zoo",
+        "plural_name": "Zoos",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/zoo_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "location": {
+      "address": "Bronx River",
+      "census_block": "360050061004002",
+      "country": "US",
+      "dma": "New York",
+      "formatted_address": "Bronx River, New York, NY 10451",
+      "locality": "New York",
+      "postcode": "10451",
+      "region": "NY"
+    },
+    "name": "Bronx Zoo",
+    "photos": [],
+    "website": "http://www.bronxzoo.com"
+  },
+  {
+    "fsq_id": "4492ad65f964a52075341fe3",
+    "categories": [
+      {
+        "id": 10056,
+        "name": "Zoo",
+        "short_name": "Zoo",
+        "plural_name": "Zoos",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/zoo_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "description": "As the world’s largest urban zoo, the Bronx Zoo features more than 600 species from around the globe.",
+    "location": {
+      "address": "2300 Southern Blvd",
+      "census_block": "360050334001022",
+      "country": "US",
+      "cross_street": "at Boston Rd",
+      "dma": "New York",
+      "formatted_address": "2300 Southern Blvd (at Boston Rd), Bronx, NY 10460",
+      "locality": "Bronx",
+      "postcode": "10460",
+      "region": "NY"
+    },
+    "name": "Bronx Zoo",
+    "photos": [
+      {
+        "id": "517704fff31c5524c2ea9bfb",
+        "created_at": "2013-04-23T22:02:39.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/39553990_sGzy89n9-zYGU69AVd79hn54d_-zHoonam-NmakHCwc.jpg",
+        "width": 3038,
+        "height": 2022
+      },
+      {
+        "id": "55c034c6498e9a1d6186da66",
+        "created_at": "2015-08-04T03:43:02.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/10023851_vTo9cDMx9oVegQUVm2yHcZsqqvRADQP76vh2tDyNuGw.jpg",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "id": "55734dff498ee9357a06c067",
+        "created_at": "2015-06-06T19:46:07.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/8587442_6GHozt-fisM8sc9w_dHDCUi0QSIjP9fN2-8-8RuVz-8.jpg",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "id": "554e2bb0498ef23df2e43158",
+        "created_at": "2015-05-09T15:45:52.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/6735657_2ict2ENmfkG5qGu_tHcODhZOIvhdNaYMpwT5LqhYbYI.jpg",
+        "width": 1920,
+        "height": 1440,
+        "classifications": [
+          "outdoor"
+        ]
+      },
+      {
+        "id": "51aac43c498ea50bd67a36f9",
+        "created_at": "2013-06-02T04:04:12.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/39322447_nCRZpxPkoqV9yojdHdKH4IPsW8_qKAo8rh8MkvNd3_s.jpg",
+        "width": 1440,
+        "height": 1440
+      }
+    ],
+    "price": 2,
+    "rating": 9,
+    "stats": {
+      "total_photos": 3075,
+      "total_ratings": 2224,
+      "total_tips": 341
+    },
+    "website": "http://www.bronxzoo.com"
+  },
+  {
+    "fsq_id": "5d8e37f352f64b000873b779",
+    "categories": [
+      {
+        "id": 13140,
+        "name": "Egyptian Restaurant",
+        "short_name": "Egyptian Restaurant",
+        "plural_name": "Egyptian Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/middleeastern_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13144,
+        "name": "Falafel Restaurant",
+        "short_name": "Falafel",
+        "plural_name": "Falafel Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/falafel_",
+          "suffix": ".png"
+        }
+      },
+      {
+        "id": 13377,
+        "name": "Vegan and Vegetarian Restaurant",
+        "short_name": "Vegan and Vegetarian Restaurant",
+        "plural_name": "Vegan and Vegetarian Restaurants",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/vegetarian_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "location": {
+      "address": "100 Kenmare St",
+      "census_block": "360610041006002",
+      "country": "US",
+      "cross_street": "",
+      "dma": "New York",
+      "formatted_address": "100 Kenmare St, New York, NY 10012",
+      "locality": "New York",
+      "postcode": "10012",
+      "region": "NY"
+    },
+    "name": "Zooba",
+    "photos": [
+      {
+        "id": "6699b7f923fcc5039ea32726",
+        "created_at": "2024-07-19T00:48:57.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/5109111_XMlNoexazJAK3xr00sLoHB6Rite7AWtULcJfU28vM5I.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "660310427447d60cdfff993e",
+        "created_at": "2024-03-26T18:13:22.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/151708096_KfdS2l3FaurHKiF16JYfY6UKMOavetlERS4Q6awmuVM.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "65a8683730cc654114555c87",
+        "created_at": "2024-01-17T23:52:23.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/131758931_kes4ZqcGkHcduD8n2rHrDIhZURyvGRfYq_BXQeC-fUc.jpg",
+        "width": 1919,
+        "height": 1377
+      },
+      {
+        "id": "659f1bab6fef0b67859bbdfe",
+        "created_at": "2024-01-10T22:35:23.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/7328246_MI7xdSyljLkagUUgvaniG6lwHCrKmAdXb2kwXRJnK4U.jpg",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "id": "6578d87cc8c8e3238200a428",
+        "created_at": "2023-12-12T22:02:36.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/478514061_-LVhU8vylNn2TmJ4Qs3AigJRRVAaZwAMpBOUTgzkL-k.jpg",
+        "width": 1440,
+        "height": 1920
+      }
+    ],
+    "rating": 8.3,
+    "stats": {
+      "total_photos": 159,
+      "total_ratings": 120,
+      "total_tips": 19
+    },
+    "website": "https://www.zoobaeats.com"
+  },
+  {
+    "fsq_id": "52e18758498e0325c034c109",
+    "categories": [
+      {
+        "id": 18025,
+        "name": "Dance Studio",
+        "short_name": "Dance Studio",
+        "plural_name": "Dance Studios",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_dancestudio_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "description": "Brooklyn Zoo NY is a training facility that revolutionizes the art of movement and fitness.",
+    "location": {
+      "address": "230 Bogart St",
+      "census_block": "360470485001003",
+      "country": "US",
+      "cross_street": "",
+      "dma": "New York",
+      "formatted_address": "230 Bogart St, Brooklyn, NY 11206",
+      "locality": "Brooklyn",
+      "postcode": "11206",
+      "region": "NY"
+    },
+    "name": "Brooklyn Zoo NY",
+    "photos": [
+      {
+        "id": "635e9b819469d570c20115c9",
+        "created_at": "2022-10-30T15:42:57.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/140469978_yhf6ny0kLea6HzgWDMT7GzXi2MVFVr9Ppjq12X9nmbY.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "6120b6b6a5656f44b1a0280e",
+        "created_at": "2021-08-21T08:17:58.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/1374530090_rC68YkxrQXfNYBZgLENJNLm8Sy3oMebNv2pI3LM0xgA.jpg",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": "5cf2c2caf2554e002c5df1f7",
+        "created_at": "2019-06-01T18:24:10.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/962_PhqTgJXpsQQrPypIoO5hyE-nLnL_wBfSiPgMklCzy3M.jpg",
+        "width": 1920,
+        "height": 1440,
+        "classifications": [
+          "indoor"
+        ]
+      },
+      {
+        "id": "5c0d44aa32b61d002c4bea48",
+        "created_at": "2018-12-09T16:36:58.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/962_7R3W6KoEe3-zvBjT1IG7T0qxRm47Yafg3GfiVXHHFZk.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "5bbbb4c47dc9e1002c510102",
+        "created_at": "2018-10-08T19:49:24.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/144166802_24qvXQSXqO4QyTR0djrOjpiu4N8UsjIEDeEnp8sFt5Q.jpg",
+        "width": 1440,
+        "height": 1916
+      }
+    ],
+    "rating": 8.9,
+    "stats": {
+      "total_photos": 35,
+      "total_ratings": 55,
+      "total_tips": 5
+    },
+    "website": "http://www.brooklynzoony.com"
+  },
+  {
+    "fsq_id": "49d8307ef964a520b15d1fe3",
+    "categories": [
+      {
+        "id": 10056,
+        "name": "Zoo",
+        "short_name": "Zoo",
+        "plural_name": "Zoos",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/zoo_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "description": "Home to more than 100 species, kids and adults alike will be amazed by close-up views of some of the wild’s most unusual animals.",
+    "location": {
+      "address": "450 Flatbush Ave",
+      "census_block": "360470177001001",
+      "country": "US",
+      "cross_street": "at Ocean Ave",
+      "dma": "New York",
+      "formatted_address": "450 Flatbush Ave (at Ocean Ave), Brooklyn, NY 11225",
+      "locality": "Brooklyn",
+      "postcode": "11225",
+      "region": "NY"
+    },
+    "name": "Prospect Park Zoo",
+    "photos": [
+      {
+        "id": "54984779498e8284cb18745c",
+        "created_at": "2014-12-22T16:31:53.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/47321_0dVsVBXhS3iOo6bmUSmDTeww_m97mpWXs_VYObLZ5PE.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "64b2c7889a627c06d4240bc5",
+        "created_at": "2023-07-15T16:21:28.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/1099625_iA7_VaBU2JyN-PpjsTq199Nnuwxz_9IBg1dRp_wM34E.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "6490bb397e03de3dc262a500",
+        "created_at": "2023-06-19T20:31:53.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/47321_V4LRtqTvxLeNZMe_lxEp93WccVj3StAK1YhX9cVl8ZA.jpg",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "id": "6490bb375e28716b7ae39a4a",
+        "created_at": "2023-06-19T20:31:51.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/47321_IlGMwRZAEjz1hX_BZNbwt0o6zogHDq-VrkVjBpGSJt0.jpg",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "id": "6490bb2d7e03de3dc2628a8a",
+        "created_at": "2023-06-19T20:31:41.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/47321_s3ulCFApUAyQUeITr91BvIrWGsQoz-VnlwZaoQX6xuo.jpg",
+        "width": 1440,
+        "height": 1440
+      }
+    ],
+    "rating": 8.1,
+    "stats": {
+      "total_photos": 749,
+      "total_ratings": 405,
+      "total_tips": 84
+    },
+    "website": "http://www.prospectparkzoo.com"
+  },
+  {
+    "fsq_id": "4a09f665f964a52077741fe3",
+    "categories": [
+      {
+        "id": 10056,
+        "name": "Zoo",
+        "short_name": "Zoo",
+        "plural_name": "Zoos",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/zoo_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "description": "Just off 5th Ave, the Central Park Zoo and Tisch Children's Zoo are home to over 130 species-- from Snow Leopards to Grizzly Bears to Tropical Birds.",
+    "location": {
+      "address": "E 64th St",
+      "census_block": "360610143001032",
+      "country": "US",
+      "cross_street": "at 5th Ave",
+      "formatted_address": "E 64th St (at 5th Ave), New York, NY 10065",
+      "locality": "New York",
+      "postcode": "10065",
+      "region": "NY"
+    },
+    "name": "Central Park Zoo",
+    "photos": [
+      {
+        "id": "550ee60b498e416747a47277",
+        "created_at": "2015-03-22T15:55:55.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/257099_iy8etD5ZAaj2YoUuSFQvgejKg7FtIX7wlOl5IsAtcic.jpg",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "id": "5172d698e4b01f6b042bb300",
+        "created_at": "2013-04-20T17:55:36.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/2653786_UQHcKO30gRc2xJWL5Kida2PfgG5ka2zTaZC2m_osJwc.jpg",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "id": "5169bb6ce4b0f5d3ad26f6df",
+        "created_at": "2013-04-13T20:09:16.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/4031587_c2_7gd4T85hfxvPaTvEKE2sOj5X78rWkuAIQVx7hjK0.jpg",
+        "width": 1434,
+        "height": 1918
+      },
+      {
+        "id": "517d2c68e4b0f03478661cc2",
+        "created_at": "2013-04-28T14:04:24.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/39644374_fhEm8j9f1XIiNgHUjfjASYkbMrLfEJjy7NZHZdYEyEA.jpg",
+        "width": 1920,
+        "height": 1440,
+        "classifications": [
+          "outdoor"
+        ]
+      },
+      {
+        "id": "516d8380e4b06da2d25a1d87",
+        "created_at": "2013-04-16T16:59:44.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/12569943_utFgZ-9t3M_Vgyydjih7XtjrZwAQyq2Bbz6uNF0cDL0.jpg",
+        "width": 1920,
+        "height": 1440,
+        "classifications": [
+          "outdoor"
+        ]
+      }
+    ],
+    "rating": 8.5,
+    "stats": {
+      "total_photos": 3154,
+      "total_ratings": 2183,
+      "total_tips": 248
+    },
+    "website": "http://www.centralparkzoo.com"
+  },
+  {
+    "fsq_id": "61fc4ae83a94d260c75ff3b7",
+    "categories": [
+      {
+        "id": 13029,
+        "name": "Brewery",
+        "short_name": "Brewery",
+        "plural_name": "Breweries",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "location": {
+      "address": "64 2nd Ave",
+      "census_block": "360610038004000",
+      "country": "US",
+      "cross_street": "btw 3rd & 4th St",
+      "dma": "New York",
+      "formatted_address": "64 2nd Ave (btw 3rd & 4th St), New York, NY 10003",
+      "locality": "New York",
+      "postcode": "10003",
+      "region": "NY"
+    },
+    "name": "Bronx Brewery",
+    "photos": [
+      {
+        "id": "65b2ef8d6201ba43d5257c99",
+        "created_at": "2024-01-25T23:32:29.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/62057_3FR-J5yy83cmvQnhBSiujRP_LGs4tjStgREM-8P9DP8.jpg",
+        "width": 1440,
+        "height": 1920
+      }
+    ],
+    "price": 2,
+    "rating": 7.4,
+    "stats": {
+      "total_photos": 37,
+      "total_ratings": 20,
+      "total_tips": 4
+    },
+    "website": "https://thebronxbrewery.com/east-village-location"
+  },
+  {
+    "fsq_id": "4bc22d23461576b081fd7c32",
+    "categories": [
+      {
+        "id": 10056,
+        "name": "Zoo",
+        "short_name": "Zoo",
+        "plural_name": "Zoos",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/zoo_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "location": {
+      "address": "5TH Ave",
+      "census_block": "360610143001033",
+      "country": "US",
+      "cross_street": "at E 66th St",
+      "formatted_address": "5TH Ave (at E 66th St), New York, NY 10065",
+      "locality": "New York",
+      "postcode": "10065",
+      "region": "NY"
+    },
+    "name": "Tisch Children's Zoo",
+    "photos": [
+      {
+        "id": "6633b87b17b4126b5a23f09c",
+        "created_at": "2024-05-02T15:59:55.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/988094_Ciyk0HVsk-4oa49fCSYC07YJlWJx_1IVPwZVFvUIt1Y.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "66281d53244761071f7d522b",
+        "created_at": "2024-04-23T20:42:59.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/66111398_lARHS3jr_pfKp1oaxB1btDeDHI7CfQ0bBSaTd3lT9o4.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "64e3bf7fa3b0fb05f2b167b9",
+        "created_at": "2023-08-21T19:48:15.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/3920453_F67IZ9QyyPHe7l2B4DCk49GF_Z_dS9Q78ocXqSU67Bc.jpg",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "id": "6495fb26b8c2d64898f6ce34",
+        "created_at": "2023-06-23T20:05:58.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/90169687_q8ugtAimABMz8ZhUA2pmQbnfaMBa_1RtO9nAZR39cAI.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "64905b8ae641d255dae3146a",
+        "created_at": "2023-06-19T13:43:38.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/16629655_1qcoj1PTf_iMvLyVZGxd0zKcOtj3lCV09tOPF2yXmaY.jpg",
+        "width": 1440,
+        "height": 1920
+      }
+    ],
+    "rating": 8.3,
+    "stats": {
+      "total_photos": 265,
+      "total_ratings": 174,
+      "total_tips": 28
+    }
+  },
+  {
+    "fsq_id": "4daf131fa86e29d01a517ed2",
+    "categories": [
+      {
+        "id": 10016,
+        "name": "Exhibit",
+        "short_name": "Exhibit",
+        "plural_name": "Exhibits",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "location": {
+      "census_block": "360610110004000",
+      "country": "US",
+      "cross_street": "",
+      "formatted_address": "New York, NY 10065",
+      "locality": "New York",
+      "postcode": "10065",
+      "region": "NY"
+    },
+    "name": "Central Park Zoo - 4D Theater",
+    "photos": [
+      {
+        "id": "5dc063871b29440007411b27",
+        "created_at": "2019-11-04T17:44:39.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/91111535_4W5A0acVeJt1ijWBP1Rh1TbeITLZlo3N1OdM-9HPbeQ.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "5dc06386d157920007c10568",
+        "created_at": "2019-11-04T17:44:38.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/91111535_KLlqWeF-fX2MCzTPK51DxZqjn3-CHIADN9kJrROoX3Y.jpg",
+        "width": 1440,
+        "height": 1920,
+        "classifications": [
+          "outdoor"
+        ]
+      },
+      {
+        "id": "5cd326bb38f2160025eeea04",
+        "created_at": "2019-05-08T18:58:03.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/43498654_bIHdckJJ5dUpscRsEUrRcHHa9_zY6vcBZdMBcu8Jcp8.jpg",
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "id": "5cd326b904d1ae002ca32140",
+        "created_at": "2019-05-08T18:58:01.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/43498654_sJ3YeclK0GIiu43uWYE4jwlfPs8MtNYKe8cQQuk3pB8.jpg",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "id": "5b6b1448c824ae002cdd2b88",
+        "created_at": "2018-08-08T16:03:20.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/54663314_kXZDj0_YcyBS3zmk2pSrqWl8QqwLY_EE_PvEPPZM6K4.jpg",
+        "width": 1916,
+        "height": 1440
+      }
+    ],
+    "rating": 8.1,
+    "stats": {
+      "total_photos": 28,
+      "total_ratings": 40,
+      "total_tips": 4
+    }
+  },
+  {
+    "fsq_id": "4b0dbeaff964a520284f23e3",
+    "categories": [
+      {
+        "id": 17110,
+        "name": "Pet Supplies Store",
+        "short_name": "Pet Supplies Store",
+        "plural_name": "Pet Supplies Stores",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/pet_store_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "location": {
+      "address": "172 9th Ave",
+      "census_block": "360610089001000",
+      "country": "US",
+      "cross_street": "",
+      "dma": "New York",
+      "formatted_address": "172 9th Ave, New York, NY 10011",
+      "locality": "New York",
+      "postcode": "10011",
+      "region": "NY"
+    },
+    "name": "The Barking Zoo",
+    "photos": [
+      {
+        "id": "55ff327d498e6548e67e7376",
+        "created_at": "2015-09-20T22:26:05.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/19854545_meKQ4Akj6rD5c0d1jIhN4C2sXRrFT_kjOrCl3x6wdVQ.jpg",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "id": "546bcd35498e7259ab7b65bf",
+        "created_at": "2014-11-18T22:50:29.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/2581282_MAIbAYYGmWvqBGq_WKqgDEB524bHZbihXmHCU9GU9rk.jpg",
+        "width": 1440,
+        "height": 1080,
+        "classifications": [
+          "indoor"
+        ]
+      },
+      {
+        "id": "50c54279e4b0c5b6f54121ae",
+        "created_at": "2012-12-10T02:01:29.000Z",
+        "prefix": "https://fastly.4sqi.net/img/general/",
+        "suffix": "/41070955_AwZaSuWjXqxJmUIIglHIenbiZCHYZcsQ70d_6Y0IuWU.jpg",
+        "width": 540,
+        "height": 720
+      }
+    ],
+    "rating": 7.3,
+    "stats": {
+      "total_photos": 7,
+      "total_ratings": 20,
+      "total_tips": 7
+    },
+    "website": "http://www.barkingzoo.com"
+  }
+]
