@@ -1,7 +1,4 @@
-/* CSS files add styling rules to your content */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
   font-family: Poppins, system-ui, sans-serif, "Benton Sans", "Helvetica Neue", helvetica, arial;
@@ -75,7 +72,7 @@ footer.page-footer {
   height: var(--footer-height);
   position: fixed;
   left: 0;
-  bottom:  0;
+  bottom: 0;
   width: 100%;
   color: black;
   text-align: center;
@@ -86,27 +83,53 @@ footer.page-footer {
   width: 300px !important;
 }
 
-.img {
-  height: 300px;
-}
-
 .card-title {
   background-color: #0005;
-}
-.card-content{
-  height:150px;
-
-
-}
-/* #brand-logo{
-  font-size:30px;
+  padding: 10px 20px;
+  line-height: 1.2;
+  margin: 0; 
+  width: 100%;
   position: absolute;
-  bottom:4em; */
-/*   width:80px; */
-/*   height:80px; */
-  
-/*   margin-left: 100px; */
-/* } */
+  bottom: 0; 
+  left: 0; 
+  color: white; 
+  font-size: 20px !important; 
+  text-align: center; 
+}
+
+.card-content {
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-action {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-action a {
+  color: orange;
+  text-transform: uppercase;
+}
+
+.card {
+  width: 400px; 
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image {
+  height: 200px; 
+  width: auto; 
+  object-fit: cover; 
+  overflow: hidden;
+  position: relative; 
+}
 
 footer {
   display: flex !important;
@@ -116,20 +139,20 @@ footer {
 }
 
 footer a {
-  color:black;
+  color: black;
 }
 
 nav a {
-  color:black !important;
+  color: black !important;
 }
 
-.Fb{
-  height:30px;
-  width:30px;
+.Fb {
+  height: 30px;
+  width: 30px;
   margin: 0px 10px;
 }
 
-h3{
-  color:red;
-  font-size:200px;
+h3 {
+  color: red;
+  font-size: 200px;
 }
