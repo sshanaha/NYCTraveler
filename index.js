@@ -21,7 +21,7 @@ const template = fs.readFileSync(__dirname + '/src/template.html').toString()
     </ul>
   `).join(''))
   // TODO: the dropdown needs to be fixed in mobile
-  .replace('{DROPDOWN_MOBILE}', boroughKeys.map((key, i) => `<li><a class="dropdown-trigger" href="/" data-target="dropdown${i}">${boroughs[key]}</a></li>`).join(''));
+  .replace('{DROPDOWN_MOBILE}', boroughKeys.map((key, i) => `<li><a class="dropdown-trigger" data-target="dropdown${i}">${boroughs[key]}</a></li>`).join(''));
 
 
 app.get('/', async (req, res) => {
@@ -29,6 +29,9 @@ app.get('/', async (req, res) => {
 });
 app.get('/about', async (req, res) => {
   return res.send(formatHTML('about'));
+});
+app.get('/search', async (req, res) => {
+  return res.send(formatHTML('search'));
 });
 
 // Somehow the app won't host properly without this endpoint
@@ -64,10 +67,11 @@ app.get('/:category/:borough', async (req, res, next) => {
 app.get('/api/search', async (req, res) => {
   const query = req.query.q;
   if (!query) return res.status(400).json({error: 'A search query is required. Example: GET /search?q=bronx+zoo'});
-  if (query.toLowerCase() === 'bronx zoo') return res.sendFile(__dirname + '/data/fsq-example.json');
+  if (query.toLowerCase() === 'bronx zoo') return res.sendFile(__dirname + '/data/fsq-example.json'), console.log('sending from disk cache');
   
   const params = {
     query,
+    limit: 20,
     fields: 'fsq_id,name,categories,location,description,website,price,rating,stats,photos',
     // A polygon I drew around NYC. The API returns the context: {"geo_bounds":{"circle":{"center":{"latitude":40.70498915,"longitude":-73.9881134},"radius":34381}}}
     polygon: '40.9196742,-73.9197063~40.8373855,-73.9587593~40.7597406,-74.013176~40.6572015,-74.043045~40.6410515,-74.1920471~40.4903041,-74.2819977~40.5623296,-73.7141418~40.7498579,-73.6942291~40.8714685,-73.7488174~40.8943106,-73.8370514~40.9049502,-73.839798~40.9083234,-73.8545609~40.9010579,-73.8607407~40.9196742,-73.9197063'
@@ -77,8 +81,6 @@ app.get('/api/search', async (req, res) => {
     if (!v) continue;
     if (['min_price', 'max_price'].includes(k)) {
       if (v >= 1 && v <= 4) params[k] = v;
-    } else if (k === 'limit') {
-      if (v >= 1 && v <= 50) params[k] = v;
     }
   }
   
@@ -90,6 +92,24 @@ app.get('/api/search', async (req, res) => {
     res.json({error});
   }
 });
+
+app.get('/place/:name/:id', async (req, res) => {
+  // TODO: render the place's details as an HTML
+  // generate :name using the fetched place.name.toLowerCase().match(/\w+/g).join('-')
+  // if the result is different from the provided :name, redirect to use the correct name
+});
+
+// If we render in the server side, we can remove this endpoint while leaving it for testing purposes
+app.get('/api/place/:id', async (req, res) => {
+  try {
+    const place = await requestFsq(req.params.id, {fields: 'name,categories,location,description,tel,email,website,hours,hours_popular,price,rating,stats,photos,related_places,tips'});
+    res.json(place);
+  }
+  catch (error) {
+    res.json({error});
+  }
+});
+
 
 
 app.listen(port, () => {

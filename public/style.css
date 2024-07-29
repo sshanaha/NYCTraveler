@@ -156,3 +156,39 @@ h3 {
   color: red;
   font-size: 200px;
 }
+
+
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar .icon {
+  position: absolute;
+  top: 47%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.search-bar .input-text {
+  width: 0px;
+  border: 0px;
+  background-color: #fff;
+  height: 20px;
+  padding: 8px 8px 8px 35px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.search-bar .input-text:focus {
+  width: 80%;
+  background-color: #ccc;
+}
+
+#search {
+  background-color: white;
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #727272 !important;
+  border-radius: 20px !important;
+  text-indent: 43px;
+}

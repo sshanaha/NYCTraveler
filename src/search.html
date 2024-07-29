@@ -1,0 +1,97 @@
+<title>Search NYC</title>
+
+<style>
+  main {
+    max-width: 1000px;
+    margin: 2em auto 0;
+    margin-top: 2em;
+  }
+  
+  #search-results {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  /* Cards */
+  .fsq-card, .carousel, .carousel img {
+    width: 300px !important;
+  }
+  .fsq-card {
+    height: 350px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to bottom,
+      black 20px,
+      black calc(100% - 20px),
+      transparent
+    );
+    mask-repeat: no-repeat;
+  }
+  .carousel {
+    height: 200px;
+  }  
+  h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  h6 {
+    display: inline;
+    font-size: .8rem;
+    color: #333;
+    margin: 0;
+  }
+  p {
+    margin-top: 8px;
+  }
+</style>
+
+
+<div style="position: relative;">
+  <input id="search" placeholder="Search for places to go to" />
+  <i class="fa fa-search" style="position: absolute; top: 11px; left: 12px; font-size: 24px;"></i>
+  <i class="fa-solid fa-magnifying-glass" style="position: absolute; top: 0; left: 0;"></i>
+</div>
+
+<section id="search-results"></section>
+
+
+<script>
+  const params = new URLSearchParams(location.search);
+  let query = params.get('q');
+  if (query) {
+    document.querySelector('input').value = query;
+    fetch('/api/search' + location.search, {cache: 'force-cache'}).then(res => res.json()).then(displayData);
+  }
+      
+  function displayData(data) {
+    console.log(data);
+    
+    document.getElementById('search-results').innerHTML = data
+      .filter(place => place.stats && place.photos.length)
+      // .sort((a, b) => b.stats.total_ratings - a.stats.total_ratings)
+      .map(place => `
+        <div class="fsq-card">
+          <div class="carousel">
+            ${place.photos.map(p => `
+              <a class="carousel-item">
+                <img width="300" height="200" src="${p.prefix}300x200${p.suffix}" />
+              </a>
+            `).join('')}
+          </div>
+          <h5>${place.name}</h5>
+          <div>
+            <h6>${place.categories[0].name.replace(/(.{14})...+/, '$1...')} in ${place.location.locality.replace('New York', 'Manhattan')} ${'&dollar;'.repeat(place.price)} · <i class="fa fa-star" style="color:darkorange"></i> ${Math.round(place.rating*5)/10} (${place.stats.total_ratings})</h6>
+            ${place.website ? `<a style="float: right" href="${place.website}" target="_blank"><i class="fa fa-external-link" style="color: black; font-weight: bold"></i></a>` : ''}
+          </div>
+          ${place.description ? `<p>${place.description}</p>` : ''}
+        </div>
+      `)
+      .join('');
+    
+    $('.carousel').carousel({fullWidth: true, indicators: true});
+  }
+</script>
