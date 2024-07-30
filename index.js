@@ -43,6 +43,8 @@ app.get('/search', async (req, res) => {
 app.get('/dir', async (req, res) => {
   return res.json({__dirname, files: fs.readdirSync(__dirname)});
 });
+// Verifying FSQ_KEY was set up properly
+app.get('/check-key', (req, res) => res.json({type: typeof process.env.FSQ_KEY, start: process.env.FSQ_KEY?.slice(0, 4), end: process.env.FSQ_KEY?.slice(-2)}));
 
 // View featured places
 app.get('/:category/:borough', async (req, res, next) => {
