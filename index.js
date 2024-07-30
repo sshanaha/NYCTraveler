@@ -18,6 +18,7 @@ const data = require('./data/featured.json');
 const categories = ['food', 'parks', 'museums', 'theaters'];
 const boroughs = {queens: 'Queens', manhattan: 'Manhattan', brooklyn: 'Brooklyn', bronx: 'The Bronx', si: 'Staten Island'};
 const boroughKeys = Object.keys(boroughs);
+const cachedPlaces = {};
 
 const template = fs.readFileSync(__dirname + '/src/template.html').toString()
   .replace('{DROPDOWNS}', boroughKeys.map((borough, i) => `
@@ -25,8 +26,11 @@ const template = fs.readFileSync(__dirname + '/src/template.html').toString()
       ${categories.map(cat => `<li><a href="/${cat}/${borough}">${toCaps(cat)}</a></li>`).join('')}
     </ul>
   `).join(''))
-  // TODO: the dropdown needs to be fixed in mobile
-  .replace('{DROPDOWN_MOBILE}', boroughKeys.map((key, i) => `<li><a class="dropdown-trigger" data-target="dropdown${i}">${boroughs[key]}</a></li>`).join(''));
+  .replace('{DROPDOWN_MOBILE}', boroughKeys.map((key, i) => `<li><a class="dropdown-trigger" data-target="dropdown${i}">${boroughs[key]}</a></li>`).join(''))
+  .replace('{DROPDOWN_SIDEBAR}', boroughKeys.map(borough => `
+    <li><a class="subheader"><b>${boroughs[borough]}</b></a></li>
+    ${categories.map(cat => `<li><a class="waves-effect" href="/${cat}/${borough}">${toCaps(cat)}</a></li>`).join('')}
+  `).join('<li><div class="divider"></div></li>'));
 
 
 app.get('/', async (req, res) => {
@@ -74,7 +78,7 @@ app.get('/:category/:borough', async (req, res, next) => {
 app.get('/api/search', async (req, res) => {
   const query = req.query.q;
   if (!query) return res.status(400).json({error: 'A search query is required. Example: GET /search?q=bronx+zoo'});
-  if (query.toLowerCase() === 'bronx zoo') return res.sendFile(__dirname + '/data/fsq-example.json'), console.log('sending from disk cache');
+  if (query.toLowerCase() === 'bronx zoo') return res.sendFile(__dirname + '/data/fsq-example.json');
   
   const params = {query, limit: 20, polygon: NYC_POLYGON, fields: LIST_FIELDS};
   for (const k in req.query) {
@@ -95,22 +99,31 @@ app.get('/api/search', async (req, res) => {
 });
 
 app.get('/place/:name/:id', async (req, res) => {
-  // TODO: render the place's details as an HTML
-  // generate :name using the fetched place.name.toLowerCase().match(/\w+/g).join('-')
-  // if the result is different from the provided :name, redirect to use the correct name
-  
   let place;
   if (req.params.id === '4492ad65f964a52075341fe3') place = require('./data/fsq-bronx-zoo.json');
-  else place = await requestFsq(req.params.id, {fields: DETAILED_FIELDS});
+  else place = cachedPlaces[req.params.id] ??= await requestFsq(req.params.id, {fields: DETAILED_FIELDS});
   
-  res.send(formatHTML('place').replace('{name}', place.name));
+  const actualName = place.name.toLowerCase().match(/\w+/g).join('-');
+  if (req.params.name !== actualName) return res.redirect(`/place/${actualName}/${req.params.id}`);
+  
+  let formatted = formatHTML('place')
+    .replace('{photos}', place.photos.map(p => `
+      <a class="carousel-item" href="/place/${place.name.replace(/'/g, '').match(/\w+/g).join('-')}/${place.fsq_id}">
+        <img width="400" height="300" src="${p.prefix}400x300${p.suffix}" />
+      </a>
+    `).join(''))
+    .replace('{address}', place.location.formatted_address);
+  for (const key of ['name', 'description', 'website', 'tel', 'email'])
+    formatted = formatted.replace(`{${key}}`, place[key] || (key === 'description' ? '' : 'Unknown'));
+    
+  res.send(formatted);
 });
 
 // This endpoint is only for testing purposes
 app.get('/api/place/:id', async (req, res) => {
   if (req.params.id === '4492ad65f964a52075341fe3') return res.sendFile(__dirname + '/data/fsq-bronx-zoo.json');
   try {
-    const place = await requestFsq(req.params.id, {fields: DETAILED_FIELDS});
+    const place = cachedPlaces[req.params.id] ??= await requestFsq(req.params.id, {fields: DETAILED_FIELDS});
     res.json(place);
   }
   catch (error) {

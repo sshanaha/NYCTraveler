@@ -2,14 +2,33 @@
   main {
     max-width: 1000px;
     margin: auto;
+    padding: 10px;
   }
-  h2 {
+  h2, h4, p {
     text-align: center;
+  }
+  .carousel img {
+    width: 400px !important;
+    transform: translate(-100px, -50px);
   }
 </style>
 
-<div id="place-photos">
-  <!-- a gallery of photos -->
+
+<div class="carousel" id="place-photos">
+  {photos}
 </div>
-<h2>{name}</h2>
-<!-- other details -->
+<h2 style="margin-top: 0">{name}</h2>
+<p>{description}</p>
+
+<h4 style="margin-top: 50px">Information</h4>
+<div style="margin: auto; width: max-content;">
+  <b>Address:</b> {address}<br>
+  <b>Website:</b> {website}<br>
+  <b>Telephone:</b> {tel}<br>
+  <b>Email:</b> {email}
+</div>
+
+
+<script>
+  $('.carousel').carousel();
+</script>

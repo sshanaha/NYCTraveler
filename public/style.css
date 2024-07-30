@@ -8,13 +8,6 @@ body {
   --footer-height: 70px;
 }
 
-video {
-  position: fixed;
-  z-index: -1;
-  width: 100%;
-  bottom: var(--footer-height);
-}
-
 h1 {
   font-style: italic;
   color: #373fff;
@@ -81,6 +74,7 @@ footer.page-footer {
 .pic {
   height: 300px !important;
   width: 300px !important;
+  transform: translate(-50px, -50px);
 }
 
 .card-title {
@@ -191,4 +185,26 @@ h3 {
   border: 1px solid #727272 !important;
   border-radius: 20px !important;
   text-indent: 43px;
+}
+
+#nav-title {
+  position: relative;
+  left: 2em;
+  bottom: 1.2em;
+  color: black;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  #nav-title {
+    font-size: min(25px, 6vw);
+    left: 0;
+  }
+  .brand-logo {
+    left: 30px !important;
+  }
+  #nyc {
+    width: 64px;
+    height: 64px;
+  }
 }
