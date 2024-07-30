@@ -33,6 +33,39 @@
     }
   },
   {
+   "borough": "queens",
+   "category": "food",
+   "title": "Astoria Seafood $$",
+   "desc": "Choose your own adventure of scallops, shark, octopus, shrimp, salmon, snapper and whatever else happens to be the catch of the day. You scope it, scoop it and hand it over to the staff to prepare to your specifications.",
+   "image": "https://media.timeout.com/images/105538032/1536/864/image.webp",
+   "ref": {
+     "url": "https://www.astoriaseafoodnyc.com/",
+     "label": "Astoria Seafood"
+   }
+ },
+ {
+   "borough": "queens",
+   "category": "food",
+   "title": "Bloom Botanical Bistro $$$",
+   "desc": "Offers a diverse menu which includes 50% vegan and 50% meat & fish dishes and some of the best cocktails in NYC making them a destination for both food and cocktails alike!",
+   "image": "https://s3-media0.fl.yelpcdn.com/bphoto/vtHap_P9Us3rT-dx-wcfpg/o.jpg",
+   "ref": {
+     "url": "https://bloom-ny.com/",
+     "label": "Bloom Botanical Bistro"
+   }
+ },
+ {
+   "borough": "queens",
+   "category": "food",
+   "title": "Paratha Wala $$",
+   "desc": "A new South Asian Indian fusion restaurant in the heart of Forest Hills, Queens. The concept of Paratha Wala Inc. is inspired by the famous parathas found in the streets of Delhi. It's a new, creative approach to Indian cuisine. Serving a wide variety of meal options from street food to delicacies highlighting Western and Indian techniques. ",
+   "image": "https://s3-media0.fl.yelpcdn.com/bphoto/_TVMKb4X6sikXDq1fKIipw/o.jpg",
+   "ref": {
+     "url": "https://pwalanyc.com/",
+     "label": "Paratha Wala "
+   }
+ },
+  {
     "borough": "queens",
     "category": "parks",
     "title": "Flushing Meadows-Corona Park",
@@ -97,6 +130,50 @@
       "url": "https://bit.ly/2LTjqXQ",
       "label": "The Queens County Farm Museum"
     }
+  }, 
+  {
+    "borough": "queens",
+    "category": "museums",
+    "title": "Noguchi Museum",
+    "desc": "Thirteen galleries and an outdoor sculpture garden are the settings for the wide collection of art work by Japanese American sculptor Isamu Noguchi (1904–1988).",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/84/dd/66/interieur.jpg?w=1400&h=-1&s=1",
+    "ref": {
+      "url": "https://www.noguchi.org/",
+      "label": "Noguchi Museum"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "museums",
+    "title": " Queens Museum",
+    "desc": "Housed in the historic New York City Building, this museum features modern and contemporary works designed to enrich peoples' appreciation and enjoyment of the fine arts through changing exhibitions, films, family workshops, lectures and performances.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a1/c3/3c/q-m.jpg?w=1400&h=-1&s=1",
+    "ref": {
+      "url": "https://queensmuseum.org/",
+      "label": "Queens Museum"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "museums",
+    "title": "Louis Armstrong House Museum",
+    "desc": "The legacy of the legendary jazz instrumentalist and vocalist, Louis Armstrong, is preserved at this Queens museum.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a1/c3/3c/q-m.jpg?w=1400&h=-1&s=1",
+    "ref": {
+      "url": "https://www.louisarmstronghouse.org/",
+      "label": "Louis Armstrong House Museum"
+    }
+  },
+  {
+    "borough": "queens",
+    "category": "museums",
+    "title": "MoMA PS1",
+    "desc": "One of the oldest and largest nonprofit contemporary art institutions in the United States. Located in Long Island City, New York, MoMA PS1 is dedicated to exhibiting the most provocative and challenging art from around the world. ",
+    "image": "https://www.artforum.com/wp-content/uploads/2021/07/featured00_large-95.jpg",
+    "ref": {
+      "url": "https://www.momaps1.org/",
+      "label": "MoMA PS1"
+    }
   },
   {
     "borough": "queens",
@@ -131,6 +208,7 @@
       "label": "College Point Multiplex Cinemas"
     }
   },
+  
   {
     "borough": "manhattan",
     "category": "food",
@@ -162,6 +240,39 @@
     "ref": {
       "url": "https://thegrillnewyork.com/",
       "label": "Grill NY "
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "food",
+    "title": "Tao Uptown $$$",
+    "desc": "A giant Buddha presides over perhaps the hippest, clubbiest sushi and Pan-Asian restaurant New York possesses; Tao sits on the south side of 58th Street just east of Fifth Avenue.",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNUU_v5BbUxuv_AZtkrroSYZPLYo3nFjeXP0xh0=s1360-w1360-h1020",
+    "ref": {
+      "url": "https://taogroup.com/venues/tao-uptown-new-york/",
+      "label": "Tao Uptown"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "food",
+    "title": "Lombardi’s Pizza $$",
+    "desc": "Established in 1905, Lombardi’s Pizza is said to be “America’s First Pizzeria,” which makes it a Little Italy landmark in and of itself. Their pizza is baked in a smoky-crusted coal oven and topped with purist tomato sauce, fresh whole milk mozzarella, and basil. Lombardi’s also offers interesting specialty pies found nowhere else.",
+    "image": "https://images.ctfassets.net/1aemqu6a6t65/4zZqgO4O2lXl062OVvwcFR/c7ae2bc77915ef9570996e544821601e/lombardis_2018dl055-005158-fff-2?q=72&w=1200&h=630&fit=fill",
+    "ref": {
+      "url": "https://www.firstpizza.com/",
+      "label": "Lombardi’s Pizza "
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "food",
+    "title": "Rezdôra $$$$",
+    "desc": "Chef Stefano Secchi came up at triple-Michelin starred Osteria Francescana in Modena, Italy, prior to opening his own sensational spot in Manhattan in 2019. Its terrific regional pasta tasting is still $98, and favorites like anolini di parma, tagliolini al ragu and the famed grandma walking through forest in Emilia",
+    "image": "https://pyxis.nymag.com/v1/imgs/efa/4f7/3afb4961ec30df3562c8ea72d30386fcb1-rezdora-scott-heins-10.rsocial.w1200.jpg",
+    "ref": {
+      "url": "https://www.rezdora.nyc/",
+      "label": "Rezdôra"
     }
   },
   {
@@ -210,6 +321,28 @@
   },
   {
     "borough": "manhattan",
+    "category": "parks",
+    "title": "Bryant Park",
+    "desc": "Situated behind the New York Public Library is Bryant Park, a well-cultivated retreat that hosts a dizzying schedule of free entertainment during the summer, including the popular Monday night outdoor movies. In the winter, look for an ice skating rink and pop-up shops for the holidays. The park also boasts free wireless access.",
+    "image": "https://bryantpark.org/assets/uploads/images/general/General_and_hort_-_2016-05-18_-_Angelito_Jusay_Photography_66.jpg",
+    "ref": {
+      "url": "https://bryantpark.org/",
+      "label": "Bryant Park"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "parks",
+    "title": "Washington Square Park",
+    "desc": "The hippies who famously turned up and tuned out in Washington Square Park are still there in spirit, and indeed often in person. In warmer months the park—which was once a potter’s field—is one of the best people-watching spots in the city, humming with musicians and street artists, while skateboarders clatter near the base of the iconic 1895 Washington Arch.",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQEwss6kuW8ViFTflL1krGKPZ5xBXZiGQeudaQ6Gb4Y82rXXOH7DdEVmL69XbQ0EDKH4GmLeTVQuAGkFb2ugeLlvfd46jQvQQGc8d3W-w",
+    "ref": {
+      "url": "https://washingtonsqpark.org/",
+      "label": "Washington Square Park"
+    }
+  },
+  {
+    "borough": "manhattan",
     "category": "museums",
     "title": "Metropolitan Museum of Art $$$",
     "desc": "The Metropolitan Museum of Art of New York City, colloquially \"the Met\", is the largest art museum in the United States.",
@@ -239,6 +372,17 @@
     "ref": {
       "url": "https://bit.ly/2ECNP6b",
       "label": "Intrepid sea, air & space museum"
+    }
+  },
+  {
+    "borough": "manhattan",
+    "category": "museums",
+    "title": "Museum of Modern Art (MoMA) $",
+    "desc": "At this massive art institution, find the classics in contemporary art (Picasso, Matisse, Pollock), alongside art by new and up-and-coming artists, with a special focus on women and artists of color. The museum covers a whopping 708,000 square feet, and every inch is packed with paintings, sculptures and films.",
+    "image": "https://www.centralpark.com/downloads/10171/download/moma.jpg?cb=dc177d665bf4fa1203d7d295e563d791&w=1200",
+    "ref": {
+      "url": "https://www.moma.org/?utm_source=google&utm_medium=cpc&utm_campaign=branded&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjw-5y1BhC-ARIsAAM_oKmwnWvueinawAwMn_em7RnSn6IlCsXQEHsxkCGPDdZCH4MUMqiAQqAaAikLEALw_wcB",
+      "label": "Museum of Modern Art (MoMA)"
     }
   },
   {
