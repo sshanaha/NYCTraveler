@@ -186,7 +186,7 @@ h3 {
 
 #search {
   background-color: white;
-  max-width: 800px;
+  width: min(95vw, 700px);
   margin: auto;
   border: 1px solid #727272 !important;
   border-radius: 20px !important;

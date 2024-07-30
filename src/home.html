@@ -1,3 +1,14 @@
+<title>Discover NYC With Us</title>
+
+<style>
+  #search {
+    background-color: aliceblue;
+  }
+  #search::placeholder {
+    color: #5a5a5a;
+  }
+</style>
+
 <video autoplay muted loop>
   <source
     src="https://static.vecteezy.com/system/resources/previews/020/015/744/mp4/new-york-city-skyline-time-lapse-from-roof-top-with-urban-skyscrapers-new-york-usa-free-video.mp4"
@@ -26,8 +37,8 @@
   </a>
 </div>
 
-<div style="display: flex; justify-content: center;">
-  <div style="position: relative; min-width: 300px; margin-top: 10px;">
+<div style="display: flex; justify-content: center; margin-top: 30px;">
+  <div style="position: relative; min-width: 300px;">
     <input id="search" placeholder="Search for places to go to" />
     <i class="fa fa-search" style="position: absolute; top: 11px; left: 12px; font-size: 24px;"></i>
     <i class="fa-solid fa-magnifying-glass" style="position: absolute; top: 0; left: 0;"></i>
@@ -36,4 +47,8 @@
 
 <script>
   $('.carousel').carousel();
+  $('#search').keydown(ev => {
+    if (ev.key !== 'Enter') return;
+    location.href = `${location.origin}/search?${new URLSearchParams({q: ev.target.value})}`;
+  });
 </script>

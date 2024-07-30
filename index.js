@@ -1,3 +1,8 @@
+const LIST_FIELDS = 'fsq_id,name,categories,location,description,website,price,rating,stats,photos';
+const DETAILED_FIELDS = 'name,categories,location,description,tel,email,website,hours,hours_popular,price,rating,stats,photos,related_places,tips';
+// A polygon I drew around NYC. The FourSquare API returns the context: {"geo_bounds":{"circle":{"center":{"latitude":40.70498915,"longitude":-73.9881134},"radius":34381}}}
+const NYC_POLYGON = '40.9196742,-73.9197063~40.8373855,-73.9587593~40.7597406,-74.013176~40.6572015,-74.043045~40.6410515,-74.1920471~40.4903041,-74.2819977~40.5623296,-73.7141418~40.7498579,-73.6942291~40.8714685,-73.7488174~40.8943106,-73.8370514~40.9049502,-73.839798~40.9083234,-73.8545609~40.9010579,-73.8607407~40.9196742,-73.9197063';
+
 if (typeof EdgeRuntime !== 'string') { // if the application is not being hosted on Vercel
   require('dotenv').config();
 }
@@ -69,13 +74,7 @@ app.get('/api/search', async (req, res) => {
   if (!query) return res.status(400).json({error: 'A search query is required. Example: GET /search?q=bronx+zoo'});
   if (query.toLowerCase() === 'bronx zoo') return res.sendFile(__dirname + '/data/fsq-example.json'), console.log('sending from disk cache');
   
-  const params = {
-    query,
-    limit: 20,
-    fields: 'fsq_id,name,categories,location,description,website,price,rating,stats,photos',
-    // A polygon I drew around NYC. The API returns the context: {"geo_bounds":{"circle":{"center":{"latitude":40.70498915,"longitude":-73.9881134},"radius":34381}}}
-    polygon: '40.9196742,-73.9197063~40.8373855,-73.9587593~40.7597406,-74.013176~40.6572015,-74.043045~40.6410515,-74.1920471~40.4903041,-74.2819977~40.5623296,-73.7141418~40.7498579,-73.6942291~40.8714685,-73.7488174~40.8943106,-73.8370514~40.9049502,-73.839798~40.9083234,-73.8545609~40.9010579,-73.8607407~40.9196742,-73.9197063'
-  };
+  const params = {query, limit: 20, polygon: NYC_POLYGON, fields: LIST_FIELDS};
   for (const k in req.query) {
     const v = parseInt(req.query[k]);
     if (!v) continue;
@@ -97,12 +96,19 @@ app.get('/place/:name/:id', async (req, res) => {
   // TODO: render the place's details as an HTML
   // generate :name using the fetched place.name.toLowerCase().match(/\w+/g).join('-')
   // if the result is different from the provided :name, redirect to use the correct name
+  
+  let place;
+  if (req.params.id === '4492ad65f964a52075341fe3') place = require('./data/fsq-bronx-zoo.json');
+  else place = await requestFsq(req.params.id, {fields: DETAILED_FIELDS});
+  
+  res.send(formatHTML('place').replace('{name}', place.name));
 });
 
-// If we render in the server side, we can remove this endpoint while leaving it for testing purposes
+// This endpoint is only for testing purposes
 app.get('/api/place/:id', async (req, res) => {
+  if (req.params.id === '4492ad65f964a52075341fe3') return res.sendFile(__dirname + '/data/fsq-bronx-zoo.json');
   try {
-    const place = await requestFsq(req.params.id, {fields: 'name,categories,location,description,tel,email,website,hours,hours_popular,price,rating,stats,photos,related_places,tips'});
+    const place = await requestFsq(req.params.id, {fields: DETAILED_FIELDS});
     res.json(place);
   }
   catch (error) {

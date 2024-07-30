@@ -4,12 +4,6 @@ $(document).ready(function() {
   $('.sidenav').sidenav();
 });
 
-$('#search').keydown(ev => {
-  if (ev.key !== 'Enter' || ev.target.value === query) return;
-  params.set('q', ev.target.value);
-  location.href = `${location.origin}/search?${params}`;
-});
-
 // Currently unusued
 function openCity(evt, cityName) {
   // Declare all variables
