@@ -5,7 +5,7 @@ body {
   margin: 2em;
   background-repeat: no-repeat;
   background-size: cover;
-  --footer-height: 70px;
+  --footer-height: 50px;
 }
 
 video {
