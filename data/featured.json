@@ -156,17 +156,6 @@
   {
     "borough": "queens",
     "category": "museums",
-    "title": "Louis Armstrong House Museum",
-    "desc": "The legacy of the legendary jazz instrumentalist and vocalist, Louis Armstrong, is preserved at this Queens museum.",
-    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a1/c3/3c/q-m.jpg?w=1400&h=-1&s=1",
-    "ref": {
-      "url": "https://www.louisarmstronghouse.org/",
-      "label": "Louis Armstrong House Museum"
-    }
-  },
-  {
-    "borough": "queens",
-    "category": "museums",
     "title": "MoMA PS1",
     "desc": "One of the oldest and largest nonprofit contemporary art institutions in the United States. Located in Long Island City, New York, MoMA PS1 is dedicated to exhibiting the most provocative and challenging art from around the world. ",
     "image": "https://www.artforum.com/wp-content/uploads/2021/07/featured00_large-95.jpg",
